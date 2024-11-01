@@ -1,3 +1,14 @@
 .home_contents h1, .home_contents h3 {
   font-family: var(--body-font);
+  margin: 0 30px;
+}
+.home_contents{
+  background-color: #F6D2CB;
+}
+.home_contents h1{
+ color: #d04125;
+}
+.home_contents h3{
+  font-size: 1.5rem;
+  color: #de5a3f;
 }

@@ -2,7 +2,9 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: peachpuff;
+  background-color: #f0b4a8;
+  max-width: 80%;
+  margin: 0 auto;
   height: 8rem;
 }
 
@@ -10,6 +12,6 @@ nav a {
   font-family: var(--head-font);
   font-weight: 700;
   text-decoration: none;
-  color: blue;
-  font-size: 1.6rem;
+ color: #bf3c22;
+  font-size: 1.8rem;
 }
