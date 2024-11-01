@@ -1,0 +1,3 @@
+.home_contents h1, .home_contents h3 {
+  font-family: var(--body-font);
+}
