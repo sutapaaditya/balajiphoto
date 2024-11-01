@@ -1,0 +1,58 @@
+.contact-components{
+  border: 1px solid #F39197;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-right{
+  margin: 10px auto;
+}
+.contact-right h2{
+  font-size: 2.2rem;
+  color: #DC392E;
+  text-align: center;
+  font-family: var(--body-font);
+}
+.contact-name, .contact-email{
+  font-size: 2rem;
+}
+.contact-name #name, .contact-email #email, .contact-message #message{
+  background-color: transparent;
+  outline: none;
+  border: 1.5px solid coral;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+input::placeholder{
+  font-size: 1.8rem;
+}
+#message::placeholder{
+  font-size: 1.8rem;
+}
+#btn{
+  margin: 1.5rem 1.2rem;
+  width: 26rem;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+#btn[type="submit"]{
+  font-size: 2rem;
+  color: #C02B21;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #DC392E;
+}
+.contact-left img{
+  margin-left: 8rem;
+}
+.text-message{
+ font-size: 2rem;
+  color: #691812;
+  text-align:center;
+  margin: 2rem auto;
+}
+@media(max-width: 768px){
+  .contact-left img{
+    display: none;
+  }
+}
