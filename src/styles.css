@@ -14,6 +14,43 @@ html {
 :root {
   --head-font: "Montserrat", sans-serif;
   --body-font: "Lato", sans-serif;
+
+  /* COLORS */
+  --golden-peach: #e39b76;
+  --warm-caramel: #d99362;
+  --glowing-orange-gold: #f0a97e;
+  --coral-gold: #e6a162;
+  --creamy-gold: #f2b88c;
+
+  /* golden */
+  --star: #fefd52;
+
+    /* Primary Tones */
+  --color-1: #e6a162;
+  --color-2: #cf9158;
+  --color-3: #b8814e;
+  --color-4: #a17145;
+  --color-5: #8a613b;
+  --color-6: #735131;
+  --color-7: #5c4027;
+  --color-8: #45301d;
+  --color-9: #2e2014;
+  --color-10: #17100a;
+  --color-11: #000000;
+
+  /* Lightened Tones */
+  --color-light-1: #e6a162;
+  --color-light-2: #e9aa72;
+  --color-light-3: #ebb481;
+  --color-light-4: #eebd91;
+  --color-light-5: #f0c7a1;
+  --color-light-6: #f3d0b1;
+  --color-light-7: #f5d9c0;
+  --color-light-8: #f8e3d0;
+  --color-light-9: #faece0;
+  --color-light-10: #fdf6ef;
+  --color-light-11: #ffffff;
+
 }
 
 .container {

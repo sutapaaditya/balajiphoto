@@ -1,5 +1,32 @@
-<div class="home_contents">
-  <h1>Balaji Photo Frames</h1>
-  <h3>welcomes you</h3>
-  <app-carousel />
+<div class="homeContainer">
+  <div class="home_contents">
+    <!-- hero grid starts here -->
+    <div class="hero_container">
+
+      <div class="home_hero container">
+        <!-- grid item 1 -->
+        <div class="hero_texts">
+          <div class="hero_title">
+            <p>Framing Life's Precious Moments .</p>
+          </div>
+          <div class="hero_subtitle">
+            <p>Custom Designs for Every Special Occasion</p>
+          </div>
+          <div class="hero_description">
+            <p>At <em>Balaji Photo Frames</em>, we specialize in crafting custom photo frames that elegantly preserve your cherished memories. Our expert artisans use high-quality materials to create designs that complement any décor, ensuring your photographs are showcased beautifully.</p>
+          </div>
+        </div>
+
+        <!-- grid item 2 -->
+        <div class="hero_images">
+          <!-- <img src="../../assets/frames/frame1.jpg" alt=""> -->
+          <img [src]="currentImage" alt="">
+        </div>
+        <!-- hero images end here -->
+      </div>
+      <!-- grid ends here -->
+    </div>
+    <!-- hero ends -->
+    <app-homegallery />
+  </div>
 </div>
