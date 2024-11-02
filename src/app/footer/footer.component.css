@@ -1,0 +1,15 @@
+.footerContainer {
+  background-color: #fdbfda;
+  min-height: 10rem;
+}
+
+.footer_contents {
+  padding: 3rem 0;
+}
+
+.footer_contents p {
+  font-family: var(--body-font);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-10);
+}

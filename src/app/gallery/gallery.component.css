@@ -1,0 +1,13 @@
+.galleryContainer {
+  margin: 0.5rem 0;
+  background-color: #fdbfda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50rem;
+}  
+
+.galleryContainer p {
+  font-family: var(--body-font);
+  font-size: 3.2rem;
+}
