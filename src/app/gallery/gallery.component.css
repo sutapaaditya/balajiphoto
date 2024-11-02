@@ -18,6 +18,21 @@ display: grid;
   width: 100%;
   height: 100%;
 }
+.gallery-card{
+  border: 10px solid black;
+}
+.gallery-card:hover{
+ opacity: 0.9;
+}
+.gallery-card h2{
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  color: #57140f;
+}
+.pic{
+  border: 5px solid #d4af37;
+}
 .gallery-text{
   text-align: center;
   font-size: 2.2rem;
@@ -27,37 +42,49 @@ display: grid;
 }
 #pic{
   grid-area: face;
+  height: 90%;
 }
 #pic1{
   grid-area: city;
+  height: 90%;
 }
 #pic2{
   grid-area: sun;
+  height: 90%;
 }
 #pic3{
   grid-area: rose;
+  height: 90%;
 }
 #pic4{
   grid-area: flower;
+  height: 90%;
 }
 #pic5{
   grid-area: teddy;
+  height: 90%;
 }
 #pic6{
   grid-area: fly;
+  height: 90%;
 }
 #pic7{
   grid-area: boy;
+  height: 90%;
 }
 #pic8{
   grid-area: tree;
+  height: 90%;
 }
 #pic9{
   grid-area: duck;
+  height: 90%;
 }
 #pic10{
   grid-area: road;
+  height: 90%;
 }
 #pic11{
   grid-area: river;
+  height: 90%;
 }
