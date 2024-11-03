@@ -54,7 +54,11 @@
 }
 
 @media (max-width: 768px) {
-.contact_details {
+  .contactContainer {
+    padding-top: 6rem;
+  }
+
+  .contact_details {
   padding: 5rem 1rem;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;

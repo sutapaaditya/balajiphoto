@@ -1,3 +1,8 @@
-<app-navbar />
+@if ( showNavbar | async ) {
+  <app-navbar />
+    } @else {
+    <app-mobilenav />
+  }
+
   <router-outlet />
 <app-footer />
