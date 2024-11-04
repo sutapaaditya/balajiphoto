@@ -55,17 +55,16 @@
 
 @media (max-width: 768px) {
   .contactContainer {
-    padding-top: 6rem;
+    height: 52rem;
   }
-
   .contact_details {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 3rem;
-  min-height: 50rem;
+  min-height: 40rem;
 }
 .contact_container {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
 }
 }
