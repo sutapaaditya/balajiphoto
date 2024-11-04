@@ -71,3 +71,36 @@
 #pic11{
   grid-area: duck;
 }
+@media(max-width: 768px){
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas:
+      "city"
+      "face"
+      "teddy"
+      "sun"
+      "place "
+      "boy"
+      "duck"
+      "fly"
+      "river "
+      "photo"
+      "see";
+}
+.gallery-contents{
+  width: 100%;
+}
+.pic{
+  border:0.3rem solid var(--color-7);
+  height: 30rem;
+}
+
+.pic:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.gallery:hover .pic:not(:hover) {
+  filter: none;
+}
+}
