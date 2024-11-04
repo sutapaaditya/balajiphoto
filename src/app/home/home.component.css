@@ -95,9 +95,6 @@
 }
 
 @media (max-width: 768px) {
-  .homeContainer {
-    padding: 11rem 1rem;
-  }
   .home_hero.container {
     width: 100%;
   }
