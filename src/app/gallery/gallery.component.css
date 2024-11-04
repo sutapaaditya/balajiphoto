@@ -1,13 +1,18 @@
+.galleryContainer{
+  background-color: #fdaacd;
+  padding: 3rem 0;
+}
+
 .gallery{
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-  "city city face face"
-  "teddy teddy sun sun"
-  "place place boy duck "
-  "river river fly fly"
-  "photo photo see see";
+    "city city face face"
+    "teddy teddy sun sun"
+    "place place boy duck "
+    "river river fly fly"
+    "photo photo see see";
   gap: 1rem;
   background-color: #fdaacd;
 }
@@ -72,10 +77,10 @@
   grid-area: duck;
 }
 @media(max-width: 768px){
-.gallery{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas:
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
       "city"
       "face"
       "teddy"
@@ -87,20 +92,20 @@
       "river "
       "photo"
       "see";
-}
-.gallery-contents{
-  width: 100%;
-}
-.pic{
-  border:0.3rem solid var(--color-7);
-  height: 30rem;
-}
+  }
+  .gallery-contents{
+    width: 100%;
+  }
+  .pic{
+    border:0.3rem solid var(--color-7);
+    height: 30rem;
+  }
 
-.pic:hover{
-  transform: scale(1.1);
-  z-index: 2;
-}
-.gallery:hover .pic:not(:hover) {
-  filter: none;
-}
+  .pic:hover{
+    transform: scale(1.1);
+    z-index: 2;
+  }
+  .gallery:hover .pic:not(:hover) {
+    filter: none;
+  }
 }
