@@ -1,9 +1,9 @@
-.galleryContainer{
+.galleryContainer {
   background-color: #fdaacd;
   padding: 3rem 0;
 }
 
-.gallery{
+.gallery {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -16,25 +16,26 @@
   gap: 1rem;
   background-color: #fdaacd;
 }
-.gallery img{
+
+.gallery img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.gallery-contents{
+.gallery-contents {
   width: 80%;
   margin: 0 auto;
 }
 
-.pic{
+.pic {
   border:0.3rem solid var(--color-7);
   height: 30rem;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.pic:hover{
+.pic:hover {
   transform: scale(1.1);
   z-index: 2;
 }
@@ -43,37 +44,47 @@
   filter: blur(2px) opacity(0.6);
 }
 
-#pic{
+#pic {
   grid-area: city;
 }
-#pic1{
+
+#pic1 {
   grid-area: face;
 }
-#pic2{
+
+#pic2 {
   grid-area: boy;
 }
-#pic4{
+
+#pic4 {
   grid-area: teddy;
 }
-#pic5{
+
+#pic5 {
   grid-area: sun;
 }
-#pic6{
+
+#pic6 {
   grid-area: river;
 }
-#pic7{
+
+#pic7 {
   grid-area: fly;
 }
-#pic8{
+
+#pic8 {
   grid-area: photo;
 }
-#pic9{
+
+#pic9 {
   grid-area: place;
 }
-#pic10{
+
+#pic10 {
   grid-area: see;
 }
-#pic11{
+
+#pic11 {
   grid-area: duck;
 }
 @media(max-width: 768px){
