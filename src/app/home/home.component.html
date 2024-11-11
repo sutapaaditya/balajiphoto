@@ -19,8 +19,10 @@
 
         <!-- grid item 2 -->
         <div class="hero_images">
-          <!-- <img src="../../assets/frames/frame1.jpg" alt=""> -->
-          <img [src]="currentImage" alt="">
+          <img 
+            [@fadeAnimation]="fadeState()"
+            [src]="currentImage()" 
+            alt="Frame showcase">
         </div>
         <!-- hero images end here -->
       </div>

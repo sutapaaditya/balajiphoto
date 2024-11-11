@@ -3,7 +3,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: var(--color-light-3); */
   background-color: #fdbfda;
 }
 
@@ -13,6 +12,29 @@ nav a {
   font-weight: 700;
   text-decoration: none;
   font-size: 1.6rem;
+  position: relative;
+}
+
+/* Underline animation for nav links except logo */
+nav a:not(.logo)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-7);
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:not(.logo):hover::after,
+nav a:not(.logo).active::after {
+  width: 100%;
+}
+
+/* Active state styling */
+nav a.active {
+  font-weight: 900;
 }
 
 .logo {

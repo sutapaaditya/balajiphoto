@@ -4,8 +4,12 @@
       <img src="../../assets/logo/balaji_64.png" alt="">
       <p>Balaji Photo Frames</p>
     </a>
-    <a routerLink="/">Home</a>
-    <a routerLink="/gallery">Gallery</a>
-    <a routerLink="/contact">Contact</a>
+    <a routerLink="/" 
+       routerLinkActive="active" 
+       [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a routerLink="/gallery" 
+       routerLinkActive="active">Gallery</a>
+    <a routerLink="/contact" 
+       routerLinkActive="active">Contact</a>
   </nav>
 </div>
