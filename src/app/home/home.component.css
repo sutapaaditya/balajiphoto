@@ -7,7 +7,7 @@
 }
 
 .hero_container {
-  background-color: #fdaacd;
+  background-color: var(--pink-lighter);
   padding: 3rem 1rem;
 }
 
@@ -64,27 +64,21 @@
   font-size: 3.2rem;
   font-weight: 900;
   font-style: italic;
-  color: #f92a82;
-  font-weight: 900;
+  color: var(--pink-primary);
 }
 
 .hero_subtitle p {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #641134;
+  color: var(--burgundy-dark);
 }
 
 .hero_description p {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #4b0d27;
+  color: var(--burgundy-darker);
   line-height: 1.75rem;
 }
-
-  /* color: #ff8e5c; */
-  /* color: #ffe135; */
-  /* color: #f17; */
-  /* color: #ef066b; */
 
 .image-slide {
   position: absolute;

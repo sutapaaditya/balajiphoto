@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #fdbfda;
+  background-color: var(--pink-light);
 }
 
 nav a {
@@ -27,14 +27,22 @@ nav a:not(.logo)::after {
   transition: width 0.3s ease-in-out;
 }
 
+nav a:not(.logo):hover,
+nav a.active {
+  color: #f92a82;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
 nav a:not(.logo):hover::after,
 nav a:not(.logo).active::after {
   width: 100%;
+  background-color: #f92a82;
 }
 
 /* Active state styling */
 nav a.active {
-  font-weight: 900;
+  transition: all 0.3s ease;
 }
 
 .logo {
